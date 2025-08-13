@@ -297,7 +297,11 @@
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form target="_blank" action="https://formsubmit.co/shashwatmishra466@gmail.com" method="POST" role="form" class="php-email-form">
-<input type="email" name="email">
+<!-- Disable CAPTCHA page -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Optional: Redirect after submission -->
+  <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
